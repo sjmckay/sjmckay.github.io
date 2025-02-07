@@ -2185,6 +2185,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		header.major:after {
 			background: #77bbd4;
 			content: '';
@@ -3143,7 +3144,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #2d57c2;
 		}
 
 		.spotlight.style3 .content {
@@ -3452,7 +3453,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/DSCN1590.JPG");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3471,10 +3472,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3513,17 +3514,23 @@ input, select, textarea {
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
-				margin-left: 3em;
+				height: 20em;
+				margin-left: 5em;
+				width: 20em;
 				vertical-align: middle;
-				width: 18em;
+
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					border-radius: 30%;
 					display: block;
-					width: 100%;
+					width:100%;
+
 				}
+
+					.contain {
+						object-fit: fill;
+					}
 
 	body.is-touch #banner {
 		background-attachment: scroll;
