@@ -31,7 +31,7 @@
 
 	// Scrolly links.
 		$('.scrolly').scrolly({
-			speed: 2000
+			speed: 1200
 		});
 
 	// Dropdowns.
@@ -226,7 +226,7 @@
 
 						// Uncomment the line below to "rewind" when this wrapper scrolls out of view.
 
-						//leave:	function(t) { $this.addClass('inactive'); },
+						leave:	function(t) { $this.addClass('inactive'); },
 
 					});
 
