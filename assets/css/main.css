@@ -3566,7 +3566,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	#footer .icons{
+	#footer ul{
 		list-style-type: none;
 
 	}
@@ -3576,7 +3576,7 @@ input, select, textarea {
 			font-size: 2em;
 		}
 
-			#footer .icons .icon.alt:before {
+			#footer .icons .icon:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -3587,13 +3587,12 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
-
-			#footer .icons .icon.alt:before {
-				color: #272833 !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
+		#footer li a {
+			color: inherit;
+		}
 
 		#footer .icons .icon {
 			text-decoration: none;
@@ -3621,10 +3620,6 @@ input, select, textarea {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
-				}
-
-				#footer .copyright li a {
-					color: inherit;
 				}
 			
 
