@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
 	list-style: none;
 }
@@ -2565,6 +2566,8 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
+
 
 /* List */
 
@@ -3157,13 +3160,44 @@ input, select, textarea {
 			border-color: #39c088;
 		}
 
+
 		.spotlight.style4 .content {
 			border-color: #2d57c2;
 			height: 20%;
 			padding-top: 1em;
 
 		}
+		.spotlight .caption {
+				pointer-events: none;
+				font-size: 1.0em;
+				font-variant: small-caps;
+				margin: 0;
+				position: absolute;
+				z-index: 25;
+				color: white;
+				}
+		.spotlight.style1 .content .caption {
+				top: -2em;
+				right: 2em;
+		}
 
+		.spotlight.style2 .content .caption {
+				bottom: 1em;
+				/* padding-right: 1em; */
+				left: -13em
+		}
+
+		.spotlight.style3 .caption {
+				bottom: 0.5em;
+				right: 2em;
+		}
+
+
+		.spotlight.style4 .content .caption {
+				top: -2em;
+				right: 2em;
+
+		}
 		.spotlight.inactive .content {
 			opacity: 0;
 		}
@@ -4153,3 +4187,13 @@ input, select, textarea {
 					}
 
 	}
+
+
+.colortext {
+	color: #fe855d;
+	font-weight: 999 !important;
+}
+.colortext.alt{
+	color: #3a72ff; /* #5db8fe; */
+	font-weight: 999 !important;
+}
