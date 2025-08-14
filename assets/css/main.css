@@ -2567,6 +2567,22 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.image.fit.fixed img {
+				max-height: 12vw;
+				object-fit:cover;
+				overflow: hidden;
+			}
+
+			.image.fit .capbr{
+				position: absolute;
+				z-index: 10000;
+				color: white;
+				top: 0.5em;
+				right: 0.5em;
+				overflow: visible;
+				font-variant: small-caps;
+				font-size: 0.75em;
+			}
 		
 
 
