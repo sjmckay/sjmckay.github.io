@@ -2551,7 +2551,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
@@ -2568,16 +2568,17 @@ input, select, textarea {
 				width: 100%;
 			}
 			.image.fit.fixed img {
-				max-height: 12vw;
+				max-height: 11em;
 				object-fit:cover;
 				overflow: hidden;
+				bottom: 1em;
 			}
 
 			.image.fit .capbr{
 				position: absolute;
 				z-index: 10000;
 				color: white;
-				top: 0.5em;
+				top: 0.0em;
 				right: 0.5em;
 				overflow: visible;
 				font-variant: small-caps;
@@ -3805,7 +3806,10 @@ input, select, textarea {
 				.spotlight .goto-next {
 					display: none;
 				}
-
+		
+		.image.left, .image.right {
+			max-width: 60% !important;
+		}
 		/* Wrapper */
 
 			.wrapper {
@@ -3855,8 +3859,15 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
 
+	@media screen and (max-width: 736px) {
+	
+	
+		.image.left, .image.right {
+	max-width: 100% !important;
+	float: none;
+	margin-bottom: 3em;
+	}
 		/* Basic */
 
 			html, body {
