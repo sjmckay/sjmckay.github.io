@@ -2576,7 +2576,6 @@ input, select, textarea {
 
 			.image.fit .capbr{
 				position: absolute;
-				z-index: 10000;
 				color: white;
 				top: 0.0em;
 				right: 0.5em;
