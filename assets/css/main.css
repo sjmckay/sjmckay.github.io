@@ -3199,9 +3199,9 @@ input, select, textarea {
 		}
 
 		.spotlight.style2 .content .caption {
-				bottom: 1em;
-				/* padding-right: 1em; */
-				left: -13em
+				bottom: 0.5em;
+				/* padding-right: -15em; */
+				left: -22em
 		}
 
 		.spotlight.style3 .caption {
