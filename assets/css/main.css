@@ -3492,7 +3492,7 @@ input, select, textarea {
 						}
 
 						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
-							margin-right: 0.5em;
+							margin-right: 0.1em;
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
