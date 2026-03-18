@@ -2551,7 +2551,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 50%;
+			max-width: 45% !important;
 		}
 
 			.image.left img, .image.right img {
@@ -2568,10 +2568,10 @@ input, select, textarea {
 				width: 100%;
 			}
 			.image.fit.fixed img {
-				max-height: 11em;
+				max-height: 30%;
 				object-fit:cover;
 				overflow: hidden;
-				bottom: 1em;
+				bottom: 2em;
 			}
 
 			.image.fit .capbr{
@@ -2770,6 +2770,10 @@ input, select, textarea {
 							margin-left: -0.5em;
 						}
 
+		}
+		
+		.image.left, .image.right {
+			max-width: 30%;
 		}
 
 /* Table */
@@ -3813,7 +3817,7 @@ input, select, textarea {
 				}
 		
 		.image.left, .image.right {
-			max-width: 60% !important;
+			max-width: 30% !important;
 		}
 		/* Wrapper */
 
@@ -3869,10 +3873,11 @@ input, select, textarea {
 	
 	
 		.image.left, .image.right {
-	max-width: 100% !important;
-	float: none;
-	margin-bottom: 3em;
-	}
+		max-width: 40% !important;
+		float: none;
+		margin-bottom: 3em;
+		}
+
 		/* Basic */
 
 			html, body {
