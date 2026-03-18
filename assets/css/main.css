@@ -2567,11 +2567,19 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+			.image.fit.fixed{
+				display: block;
+				margin: 0 0 2em 0;
+				height: 68%;
+				overflow: hidden;
+				position: relative;
+			}
 			.image.fit.fixed img {
-				max-height: 30%;
+				max-height: 100%;
 				object-fit:cover;
 				overflow: hidden;
-				bottom: 2em;
+				position: relative;
 			}
 
 			.image.fit .capbr{
@@ -3877,6 +3885,14 @@ input, select, textarea {
 		float: none;
 		margin-bottom: 3em;
 		}
+
+		.image.fit.fixed{
+				display: block;
+				margin: 0 0 2em 0;
+				height: 80%;
+				overflow: hidden;
+				position: relative;
+			}
 
 		/* Basic */
 
