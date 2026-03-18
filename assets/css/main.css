@@ -2551,7 +2551,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 45% !important;
+			max-width: 45%;
 		}
 
 			.image.left img, .image.right img {
@@ -2780,9 +2780,6 @@ input, select, textarea {
 
 		}
 		
-		.image.left, .image.right {
-			max-width: 30%;
-		}
 
 /* Table */
 
@@ -3824,9 +3821,7 @@ input, select, textarea {
 					display: none;
 				}
 		
-		.image.left, .image.right {
-			max-width: 30% !important;
-		}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3880,8 +3875,8 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 	
 	
-		.image.left, .image.right {
-		max-width: 40% !important;
+	.image.left, .image.right {
+		max-width: 100%;
 		float: none;
 		margin-bottom: 3em;
 		}
