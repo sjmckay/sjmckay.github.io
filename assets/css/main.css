@@ -3106,7 +3106,7 @@ input, select, textarea {
 
 	
 		.spotlight .image.main {
-			display: none;
+			display: block;
 		}
 
 			.spotlight .image.main img {
@@ -3181,6 +3181,7 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			border-color: #77bbd4;
+			overflow-y: visible !important;
 		}
 
 		.spotlight.style2 .content {
@@ -3212,10 +3213,10 @@ input, select, textarea {
 				right: 2em;
 		}
 
-		.spotlight.style2 .content .caption {
+		.spotlight.style2 .caption {
 				bottom: 0.5em;
 				/* padding-right: -15em; */
-				left: -22em
+				left: 2em;
 		}
 
 		.spotlight.style3 .caption {
@@ -3808,8 +3809,8 @@ input, select, textarea {
 				top: -2em !important;
 				right: 2em !important;
 				}
-				.spotlight.style2 .content .caption {
-				top: -2em !important;
+				.spotlight.style2 .caption {
+				top: 1em !important;
 				left: 2em !important;
 				}
 				.spotlight.style3 .caption {
@@ -3964,8 +3965,8 @@ input, select, textarea {
 				top: -2em !important;
 				right: 2em !important;
 				}
-				.spotlight.style2 .content .caption {
-				top: -2em !important;
+				.spotlight.style2 .caption {
+				top: 1em !important;
 				left: 2em !important;
 				}
 				.spotlight.style3 .caption {
@@ -4236,8 +4237,8 @@ input, select, textarea {
 				top: -2em !important;
 				right: 2em !important;
 				}
-				.spotlight.style2 .content .caption {
-				top: -2em !important;
+				.spotlight.style2 .caption {
+				top: 1em !important;
 				left: 2em !important;
 				}
 				.spotlight.style3 .caption {
